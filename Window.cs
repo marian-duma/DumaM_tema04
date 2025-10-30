@@ -23,7 +23,7 @@ namespace ProgramMain
         private List<Objectoid> objects;
         //Verifica gravitatia pentru toate obiectele
         //Astfel nu vor fi obiecte cu gravitatia activata si altele nu.
-        private bool gravityEnabled;
+        private bool gravityEnabled = true;
         public Window() : base(800, 600, new GraphicsMode(32, 24, 0, 8))
         {
             VSync = VSyncMode.On;
